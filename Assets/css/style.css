@@ -1,0 +1,340 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid footer{
+    max-width: 1920px;
+    padding: 0;
+}
+.container{
+    max-width: 1160px;
+    padding: 0;
+}
+.head{
+    height: 500px;
+    background-image: url(../image/head_image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.bg{
+    max-width: 1920px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.25);
+}
+.head .container{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.head-text{
+    max-width: 760px;
+    height: 250px;
+    /* margin: 0 0 86px 0; */
+}
+.head-text .head-p1{
+    height: 150px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+}
+.head-text .head-p2{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: none;
+
+    margin: -15px 0 0 0;
+}
+.head-rectangle{
+    width: 360px;
+    height: 500px;
+    background: #3a1bb5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.mini_lan{
+    display: none;
+}
+.lan, .lan1{
+    width: 93px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+.lan .ru, .lan .kz{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+.ru{
+    width: 48px;
+    height: 36px;
+    border: 2px solid #FEB119;
+    border-radius: 6px;
+    color: #FEB119;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 5px 0 0;
+}
+.kz{
+    width: 35px;
+    height: 36px;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 5px;
+}
+
+.call{
+    width: 323px;
+    height: 225px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0 0 40px 0;
+}
+.fast-num{
+    width: 307px;
+    height: 119px;
+
+    border: 5px solid #FEB119;
+    border-radius: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 94px;
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.03em;
+    
+    color: #FEB119;
+
+    margin: 0 0 10px 0;
+}
+.fast-num img{
+    width: 36px;
+    height: 59px;
+    margin: 0 20px 0 0;
+}
+.call p{
+    width: 309px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 48px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    text-align: center;
+}
+.WhatsApp-num{
+    width: 323px;
+    height: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.WhatsApp-num img{
+    width: 35px;
+    height: 35px;
+
+    margin: 0 21.17px 0 0;
+}
+
+/* ============== */
+
+.main{
+    height: 1370px;
+    padding: 0;
+}
+.main .container{
+    height: 1370px;
+}
+.main-content{
+    width: 1160px;
+    margin: 60px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.applications{
+    width: 760px;
+    height: 1370px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.application{
+    width: 360px;
+    height: 430px;
+    background: #F8F8F8;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
+    margin: 0 0 40px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+.app_block{
+    width: 300px;
+    height: 378px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.app_block .app_p{
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    margin: 0;
+}
+.app_text{
+    width: 300px;
+    height: 132px;
+    margin: 0 0 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.app_text p{
+    width: 300px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    color: #000000;
+}
+.app_btn{
+    width: 300px;
+    height: 54px;
+    background: #66D144;
+    border: #66D144;
+    border-radius: 6px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.help_desk{
+    width: 360px;
+    height: 1370px;
+    background: #F6F0E9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.help_text{
+    width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 0 10px 0;
+}
+.help_text hr{
+    background: #FF8A01;
+}
+.help_text p{
+    width: 310px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin: 0 0 5px 0;
+}
+.help_text p span{
+    width: 281px;
+}
+.footer{
+    height: 176px;
+}
+.footer .container{
+    height: 176px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer .container hr{
+    width: 1160px;
+}
+.footer .container p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+
+    margin: 0;
+}

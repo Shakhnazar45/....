@@ -1,0 +1,509 @@
+@media screen and (max-width: 1280px) {
+    .container{
+        max-width: 1140px;
+    }
+    .mini_lan{
+        display: none;
+    }
+    .head-text .head-p1{
+        font-size: 35px;
+    }
+    .head-text .head-p2{
+        font-size: 15px;
+    }
+    .head-rectangle{
+        width: 320px;
+    }
+    .lan{
+        width: 85px;
+        height: 30px;
+    }
+    .lan .ru, .lan .kz{
+        font-size: 20px;
+    }
+    .ru{
+        width: 40px;
+        height: 30px;
+    }
+    .call{
+        width: 290px;
+    }
+    .fast-num{
+        width: 270px;
+        font-size: 65px;
+    }
+    .fast-num img{
+        width: 32px;
+        height: 55px;
+    }
+    .call p{
+        width: 270px;
+        font-size: 20px;
+    }
+    .WhatsApp-num{
+        width: 270px;
+        font-size: 30px;
+    }
+    .WhatsApp-num img{
+        width: 32px;
+        height: 32px;
+        margin: 0;
+    }
+    .main, .main .container{
+        height: 1325px;
+    }
+    .main-content{
+        width: 1140px;
+        margin: 30px 0 0 0;
+    }
+    
+    .applications, .help_desk{
+        height: 1325px;
+    }
+    .application{
+        margin: 0 0 15px 0;
+    }
+    #help_desk{
+        height: 1275px;
+    }
+    .help_text p span{
+        width: 285px;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+    .container{
+        max-width: 1000px;
+    }
+    .mini_lan{
+        display: none;
+    }
+    .main-content{
+        width: 1000px;
+    }
+    .main{
+        height: 1155px;
+    }
+    .main .container{
+        height: 1155px;
+    }
+    .applications{
+        width: 660px;
+        height: 1155px;
+    }
+    .application{
+        width: 320px;
+        height: 375px;
+        
+    }
+    .app_block{
+        width: 270px;
+        height: 330px;
+    }
+    .app_p{
+        font-size: 15px;
+    }
+    .app_block hr{
+        width: 270px;
+    }
+    .app_text{
+        width: 270px;
+        margin: 0 0 10px 0;
+    }
+    .app_btn{
+        width: 240px;
+    }
+    .help_desk{
+        width: 320px;
+        height: 1155px;
+    }
+    #help_desk{
+        width: 275px;
+        height: 1140px;
+    }
+    .help_text, .help_text p{
+        width: 275px;
+        font-size: 20px;
+    }
+    .help_text p span{
+        width: 259px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .container{
+        max-width: 900px;
+    }
+    .head-text .head-p1{
+        font-size: 30px;
+    }
+    .head-rectangle{
+        height: 245px;
+    }
+    .head-rectangle .lan{
+        display: none;
+    }
+    .head-rectangle .call{
+        margin: 0;
+    }
+    .mini_lan{
+        width: 110px;
+        height: 50px;
+        background: #3a1bb5;
+        position: absolute;
+        top: 0;
+        right: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lan1{
+        display: flex;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 48px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lan1 .ru{
+        width: 45px;
+        height: 30px;
+        border: 2px solid #FEB119;
+        border-radius: 6px;
+        color: #FEB119;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 0 5px 0 0;
+    }
+    .lan1 .kz{
+        width: 35px;
+        height: 36px;
+        display: flex;
+        color: #ffffff;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 5px;
+    }
+    .main{
+        height: 1130px;
+    }
+    .main .container{
+        height: 1130px;
+    }
+    .main-content{
+        width: 900px;
+    }
+    .applications{
+        width: 580px;
+        height: 1130px;
+    }
+    .application{
+        width: 255px;
+        height: 355px;
+    }
+    .app_block{
+        width: 215px;
+        height: 330px;
+    }
+    .app_block .app_p{
+        font-size: 17px;
+    }
+    .app_text{
+        width: 215px;
+    }
+    .app_block img{
+        width: 130px;
+        height: 35px;
+    }
+    .help_desk{
+        width: 290px;
+        height: 1120px;
+    }
+    #help_desk{
+        width: 260px;
+        height: 1095px;
+    }
+    .help_text{
+        width: 260px;
+    }
+    .help_text p{
+        width: 260px;
+        font-size: 17px;
+    }
+    .help_text p span{
+        width: 245px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .head, .head .bg, .head .bg .container{
+        height:500px;
+    }
+    .head{
+        background-position: -230px;
+    }
+    .head-text{
+        width: 435px;
+    }
+    .main, .main .container, .main-content{
+        height: 2320px;
+    }
+    .mini_lan{
+        right: 0;
+    }
+    .main-content{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .applications{
+        order: 2;
+    }
+    .help_desk{
+        width: 470px;
+        order: 1;
+    }
+    #help_desk, .help_text, .help_text p, .help_text hr{
+        width: 390px;
+    }
+    .help_text p{
+        font-size: 22px;
+    }
+    .help_text p span{
+        width: 360px;
+        font-size: 22px;
+    }
+    .footer .container p{
+        font-size: 17px;
+    }
+    .footer .container hr{
+        width: 690px;
+    }
+}
+@media screen and (max-width: 425.6px) {
+    .head, .head .bg{
+        height: 687px;
+    }
+    .head{
+        background-image: url("../image/phoneHeadBg.png");
+        background-size: 100vw;
+        background-position: 0 0;
+    }
+    .head .bg{
+        display: flex;
+        align-items: flex-end;
+    }
+    .head .container{
+        height: 505px;
+        flex-wrap: wrap;
+    }
+    .head-text{
+        width: 330px;
+        height: 175px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .head-text .head-p1{
+        width: 270px;
+        font-size: 22px;
+        height: 140px;
+        line-height: 40px;
+    }
+    .head-text .head-p2{
+        width: 260px;
+    }
+    .head-rectangle{
+        width: 100%;
+        height: 275px;
+    }
+    .head-rectangle .call{
+        width: 360px;
+        height: 250px;
+    }
+    .call .fast-num{
+        width: 300px;
+        height: 130px;
+        font-size: 80px;
+    }
+    .fast-num img{
+        width: 38px;
+        height: 60px;
+    }
+    .call p{
+        width: 280px;
+        font-size: 23px;
+        margin: 0 0 8px 0;
+    }
+    .WhatsApp-num{
+        font-size: 32px;
+    }
+    .WhatsApp-num img{
+        width: 35px;
+        height: 35px;
+    }
+    .main, .main .container, .main-content{
+        height: 2070px;
+    }
+    .main-content{
+        width: 100%;
+    }
+    .applications{
+        width: 100%;
+        height: 950px;
+    }
+    .application{
+        width: 190px;
+        height: 300px;
+        margin: 0;
+    }
+    .app_block{
+        height: 270px;
+    }
+    .app_block, .app_block hr, .app_text{
+        width: 170px;
+    }
+    .app_block img{
+        width: 120px;
+        height: 30px;
+    }
+    .app_block .app_p{
+        font-size: 14px;
+    }
+    .app_text{
+        height: 100px;
+    }
+    .app_text p{
+        font-size: 12px;
+    }
+    .app_btn{
+        width: 160px;
+        height: 45px;
+    }
+
+    .help_desk{
+        width: 385px;
+        height: 1090px;
+    }
+    #help_desk, #help_desk .help_text, .help_text p{
+        width: 340px;
+        font-size: 21px;
+    }
+    #help_desk{
+        height: 1070px;
+    }
+    .help_text p span{
+        width: 310px;
+        font-size: 21px;
+    }
+    .footer{
+        height: 120px;
+    }
+    .footer .container{
+        height: 120px;
+    }
+    .footer .container hr{
+        width: 400px;
+    }
+    .footer .container p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 375.2px) {
+    .head, .head .bg{
+        height: 715px;
+    }
+    .head-text .head-p1{
+        width: 245px;
+    }
+    .head-text .head-p2{
+        width: 240px;
+    }
+    .head .container{
+        margin: 0 0 52px 0;
+    }
+
+    .call .fast-num{
+        width: 265px;
+        height: 105px;
+        font-size: 64px;
+    }
+    .fast-num img{
+        width: 28px;
+        height: 47px;
+    }
+    .call p{
+        font-size: 22px;
+    }
+    .WhatsApp-num{
+        width: 240px;
+        font-size: 28px;
+    }
+    .WhatsApp-num img{
+        width: 35px;
+        height: 35px;
+    }
+    .main, .main .container, .main .main-content{
+        height: 1860px;
+    }
+    .help_desk{
+        width: 335px;
+    }
+    #help_desk, #help_desk .help_text, .help_text p{
+        width: 290px;
+    }
+    #help_desk{
+        height: 1075px;
+    }
+    .help_text p span{
+        width: 265px;
+        font-size: 18px;
+    }
+    .applications{
+        height: 720px;
+    }
+    .application{
+        width: 158px;
+        height: 220px;
+    }
+    .app_block, .app_text, .app_block hr{
+        width: 138px;
+    }
+    .app_block{
+        height: 205px;
+    }
+    .app_block hr{
+        margin: 0;
+    }
+    .app_block img{
+        width: 73px;
+        height: 18px;
+    }
+    .app_block .app_p{
+        font-size: 10px;
+    }
+    .app_text p{
+        font-size: 9px;
+    }
+    .app_btn{
+        width: 138px;
+        height: 30px;
+    }
+    .footer, .footer .container{
+        height: 160px;
+    }
+    .footer .container hr, .footer .container p{
+        width: 335px;
+    }
+    .footer .container p{
+        font-size: 18px;
+        text-align: center;
+    }
+}   
